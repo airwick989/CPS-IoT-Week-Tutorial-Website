@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route ,Link, Routes} from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import $ from 'jquery';
+import './components/component styles/Navbar.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  jQueryCode = () => {
+    $('.nav-link').on('click', function() {
+      $('.active-link').removeClass('active-link');
+      $(this).addClass('active-link');
+    });
+  }
+  componentDidMount(){
+    this.jQueryCode()
+  }
+  render(){
+    return (
+      <div className="App">
+
+        <Router>
+          <div className="navbar-container">
+            <ul>
+              <li className="nav-link active-link">
+                <Link to="/">Home</Link>
+                <div className="underline"></div>
+              </li>
+              <li className="nav-link">
+                <Link to="/about">About</Link>
+                <div className="underline"></div>
+              </li>
+            </ul>
+          </div>
+  
+          <Routes>
+            <Route exact path="/" element={<Home/>}/>
+            <Route path="/about" element={<About/>}/>
+          </Routes>
+        </Router>
+
+
+
+      </div>
+    );
+  }
+
 }
-
-export default App;
