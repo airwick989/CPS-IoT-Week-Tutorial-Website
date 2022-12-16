@@ -6,17 +6,12 @@ import currentPractices from '../assets/images/current_practices.jpg';
 import combinedSolution from '../assets/images/combined_solution.jpg';
 import { Grid } from '@mui/material';
 import WhiteCard from "./WhiteCard";
-
-var colors = {
-    'primary': '#84478F',
-    'light-primary': '#EDC1F9',
-    'secondary': '#B9F66F',
-}
+import { colorCodes } from './component styles/colorCodes';
 
 function Home(){
     return(
         <div className="centered-div">
-            <Parallax pages={2.6} style={{backgroundColor: colors["light-primary"]}}>
+            <Parallax pages={2.6} style={{backgroundColor: colorCodes["light-primary"]}}>
 
                 <ParallaxLayer 
                     speed={0.01}
