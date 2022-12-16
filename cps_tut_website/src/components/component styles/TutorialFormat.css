@@ -1,14 +1,29 @@
-.centered-div{
-    display: 'flex';
-    align-items: 'center';
-    justify-content: 'center';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+.tutorialformat {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    background-color: black;
 }
 
-.tf-h1 {
+.tutorialformat h1 {
     font-size: 4em;
     color: #84478F;
     margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 0;
+}
+
+.tutorialformat h2 {
+    font-size: 2em;
+    color: #CA94EF;
+    margin-left: 2.2em;
+    margin-top: 0;
+}
+
+.tutorialformat p {
+    margin-left: 3.2em;
+    margin-right: 3.2em;
+}
+
+.italicized {
+    font-weight: 200;
 }

@@ -33,7 +33,7 @@ export default class App extends Component {
                 <div className="underline"></div>
               </li>
               <li className="nav-link">
-                <Link to="/tutorialformat">Tutorial Format</Link>
+                <Link to="/tutorialformat">Tutorial Format (Half-Day)</Link>
                 <div className="underline"></div>
               </li>
               <li className="nav-link">

@@ -28,7 +28,7 @@ function Systems(){
                 >
 
                     <WhiteCard 
-                        marginTop={35}
+                        marginTop={30}
                         children={
                             <p>
                                 The vehicle HIL bench is divided into subsystems in the form of a topological hierarchy, and are interconnected <br/>
@@ -58,7 +58,7 @@ function Systems(){
                 >
 
                     <WhiteCard 
-                        marginTop={35}
+                        marginTop={30}
                         children={
                             <p>
                                 The virtual driving HIL bench provides a highly streamlined platform consisting of tools that enable the <br/>
@@ -91,7 +91,7 @@ function Systems(){
 
                         <Grid direction="row">
                             <WhiteCard 
-                                marginTop={9}
+                                marginTop={10}
                                 children={
                                     <p>
                                         The appeal of the presented systems are primarily to be targeted towards companies and manufacturers <br/>
@@ -109,7 +109,7 @@ function Systems(){
 
                         <Grid direction="row">
                             <WhiteCard 
-                                marginTop={9}
+                                marginTop={5}
                                 children={
                                     <p>
                                         Another major point benefit introduced by the systems is the modular nature. The systems adopt a plug <br/>

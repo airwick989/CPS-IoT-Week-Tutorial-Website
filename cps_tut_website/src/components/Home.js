@@ -11,7 +11,7 @@ import { colorCodes } from './component styles/colorCodes';
 function Home(){
     return(
         <div className="centered-div">
-            <Parallax pages={2.6} style={{backgroundColor: colorCodes["light-primary"]}}>
+            <Parallax pages={2.6} style={{backgroundColor: colorCodes["lighter-primary"]}}>
 
                 <ParallaxLayer 
                     speed={0.01}
