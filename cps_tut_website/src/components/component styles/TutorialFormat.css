@@ -1,0 +1,14 @@
+.centered-div{
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center';
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+.tf-h1 {
+    font-size: 4em;
+    color: #84478F;
+    margin-top: 1em;
+}
