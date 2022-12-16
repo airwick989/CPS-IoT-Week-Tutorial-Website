@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route ,Link, Routes} from "react-router-dom";
 import Home from "./components/Home";
-import About from "./components/About";
+import Organizers from "./components/Organizers";
 import Systems from "./components/Systems";
 import TutorialFormat from "./components/TutorialFormat";
 import $ from 'jquery';
@@ -37,7 +37,7 @@ export default class App extends Component {
                 <div className="underline"></div>
               </li>
               <li className="nav-link">
-                <Link to="/about">About</Link>
+                <Link to="/organizers">Organizers</Link>
                 <div className="underline"></div>
               </li>
             </ul>
@@ -45,9 +45,9 @@ export default class App extends Component {
   
           <Routes>
             <Route exact path="/" element={<Home/>}/>
-            <Route path="/about" element={<About/>}/>
             <Route path="/systems" element={<Systems/>}/>
             <Route path="/tutorialformat" element={<TutorialFormat/>}/>
+            <Route path="/organizers" element={<Organizers/>}/>
           </Routes>
         </Router>
 

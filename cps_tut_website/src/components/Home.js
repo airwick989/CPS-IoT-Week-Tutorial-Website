@@ -60,7 +60,7 @@ function Home(){
                 </ParallaxLayer>
 
                 <ParallaxLayer 
-                    offset={0.99} 
+                    offset={0.96} 
                     speed={1} 
                     style={{
                         backgroundImage: `url(${currentPractices})`,
