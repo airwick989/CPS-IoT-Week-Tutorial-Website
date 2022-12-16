@@ -1,0 +1,22 @@
+.centered-div{
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center';
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+    margin-top: 1em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.4em;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body, html {
 	margin: 0;
 	font-family: Arial, helvetica, sans-serif;
@@ -27,6 +29,7 @@ a {
 	display: inline-block;
 	font-size: 18px;
 	font-weight: lighter;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-container ul li a {
