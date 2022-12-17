@@ -5,7 +5,7 @@
 }
 
 .organizers h1 {
-    font-size: 4em;
+    font-size: 2em;
     color: #84478F;
     margin-top: 1em;
     margin-left: 1em;
@@ -13,13 +13,20 @@
 }
 
 .organizers h2 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #CA94EF;
-    margin-left: 2.2em;
+    margin-left: 1.45em;
     margin-top: 0;
 }
 
 .organizers p {
-    margin-left: 3.2em;
-    margin-right: 3.2em;
+    margin-left: 1.55em;
+    margin-right: 1.55em;
+    font-size: 1.5em;
+}
+
+.organizers img {
+    width: 100%;
+    height: 85%;
+    margin: 2rem;
 }
