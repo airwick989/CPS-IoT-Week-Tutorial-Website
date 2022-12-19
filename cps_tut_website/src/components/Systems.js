@@ -1,7 +1,6 @@
 import React from "react";
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import WhiteCard from "./WhiteCard";
-import { colorCodes } from './component styles/colorCodes';
 import vehicleHILBench from '../assets/images/vehicle_hil_bench.jpg';
 import virtualDrivingHILBench from '../assets/images/virtual_driving_hil_bench.jpg';
 import bothSystems from '../assets/images/both_systems.jpg';
@@ -10,7 +9,7 @@ import { Grid } from '@mui/material';
 function Systems(){
     return(
         <div className="centered-div">
-            <Parallax pages={3.3} style={{backgroundColor: colorCodes.secondary}}>
+            <Parallax pages={3.3}>
 
                 <ParallaxLayer 
                     speed={0.01}

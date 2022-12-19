@@ -29,7 +29,7 @@ function Organizers(){
                                 <h1>Dr. Akramul Azim</h1>
                                 <h2>Ontario Tech University, akramul.azim@ontariotechu.ca</h2>
                                 <p>
-                                    Akramul Azim is an Associate Professor in Software Engineering at the Ontario Tech University, Oshawa, Ontario, Canada. His research interests include real-time embedded software, safety-critical software, machine learning, software engineering, cognitive computing, and intelligent transportation systems. He is a Professional Engineer in Ontario and a Senior Member of IEEE.
+                                    Akramul Azim is an Associate Professor in Software Engineering at the Ontario Tech University, Oshawa, Ontario, Canada. His research interests include real-time embedded software, safety-critical software, machine learning, software engineering, cognitive computing, and intelligent transportation systems. He is a Professional Engineer in Ontario and a Senior Member of the IEEE.
                                 </p>
                             </Slide>
                         </Grid>
@@ -59,7 +59,7 @@ function Organizers(){
                                 <h1>Taufiq Rahman</h1>
                                 <h2>National Research Council Canada, taufiq.rahman@nrc-cnrc.gc.ca</h2>
                                 <p>
-                                    Taufiq Rahman is a transportation automation researcher in the Automotive \& Surface Transportation Research Center of National Research Council Canada (NRC), where he has been since 2017. His current research interests include perception systems, sensor fusion, applied machine learning and cybersecurity of transportation automation systems. In past academic and industrial roles, he synthesized and implemented novel opto-mechatronic applications for aerial and marine robotics for real-time performance in challenging operating conditions.
+                                    Taufiq Rahman is a transportation automation researcher in the Automotive & Surface Transportation Research Center of National Research Council Canada (NRC), where he has been since 2017. His current research interests include perception systems, sensor fusion, applied machine learning and cybersecurity of transportation automation systems. In past academic and industrial roles, he synthesized and implemented novel opto-mechatronic applications for aerial and marine robotics for real-time performance in challenging operating conditions.
                                 </p>
                             </Slide>
                         </Grid>
