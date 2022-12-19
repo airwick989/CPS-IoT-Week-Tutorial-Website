@@ -7,6 +7,7 @@ import combinedSolution from '../assets/images/combined_solution.jpg';
 import { Grid } from '@mui/material';
 import WhiteCard from "./WhiteCard";
 
+
 function Home(){
     return(
       
