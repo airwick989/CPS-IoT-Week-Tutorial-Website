@@ -11,18 +11,11 @@ export default class App extends Component {
   jQueryCode = () => {
     $('.nav-link').on('click', function() {
       $('.active-link').removeClass('active-link');
-      $("#/systems").addClass('active-link');
-    });
-  }
-  navBarOnLoad = () => {
-    $(document).ready(function(){
-      $('.active-link').removeClass('active-link');
-      $("#/systems").addClass('active-link');
+      $(this).addClass('active-link');
     });
   }
   componentDidMount(){
     this.jQueryCode()
-    //this.navBarOnLoad()
   }
   render(){
     return (
@@ -31,7 +24,7 @@ export default class App extends Component {
         <Router>
           <div className="navbar-container">
             <ul>
-              <li className="nav-link active-link" id="/">
+              <li className="nav-link" id="/">
                 <Link to="/">Home</Link>
                 <div className="underline"></div>
               </li>
