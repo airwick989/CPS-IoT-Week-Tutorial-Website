@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cps/static/css/main.1ec7a830.css",
+    "main.js": "/cps/static/js/main.a3bb779e.js",
+    "static/media/automotive_industry.jpg": "/cps/static/media/automotive_industry.90d79582e26ed7ccd18f.jpg",
+    "static/media/RIDWAN_HOSSAIN.jpg": "/cps/static/media/RIDWAN_HOSSAIN.64847c4ba99aa8e7e4cd.jpg",
+    "static/media/virtual_driving_hil_bench.jpg": "/cps/static/media/virtual_driving_hil_bench.4562ab59d2916d9e58dc.jpg",
+    "static/media/vehicle_hil_bench.jpg": "/cps/static/media/vehicle_hil_bench.23e0e55283926f2d837d.jpg",
+    "static/media/current_practices.jpg": "/cps/static/media/current_practices.c0b4f000c5ebc17cbe90.jpg",
+    "static/media/combined_solution.jpg": "/cps/static/media/combined_solution.14aaa6d5892f56280756.jpg",
+    "static/media/both_systems.jpg": "/cps/static/media/both_systems.c23ce42255c5218a8de7.jpg",
+    "static/media/AKRAMUL_AZIM.jpg": "/cps/static/media/AKRAMUL_AZIM.cdb58e557d4395eefd05.jpg",
+    "static/media/TAUFIQ_RAHMAN.jpg": "/cps/static/media/TAUFIQ_RAHMAN.4fafff8a298a13101731.jpg",
+    "index.html": "/cps/index.html",
+    "main.1ec7a830.css.map": "/cps/static/css/main.1ec7a830.css.map",
+    "main.a3bb779e.js.map": "/cps/static/js/main.a3bb779e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ec7a830.css",
+    "static/js/main.a3bb779e.js"
+  ]
+}
